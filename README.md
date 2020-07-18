@@ -4,6 +4,7 @@
 - Run sudo docker-compose exec web composer update
 - Run sudo docker-compose exec web php  artisan migrate --seed
 - Run sudo docker-compose exec web php artisan passport:install
+- Run sudo chmod -R 777 storage/
 - Run sudo docker-compose exec web php artisan serve
 - Change port to 8090
 - http://127.0.0.1:8090
